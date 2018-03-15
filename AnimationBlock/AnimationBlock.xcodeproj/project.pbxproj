@@ -21,6 +21,8 @@
 		CA88179118787B9300879946 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA88177318787B9300879946 /* UIKit.framework */; };
 		CA88179918787B9300879946 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CA88179718787B9300879946 /* InfoPlist.strings */; };
 		CA88179B18787B9300879946 /* AnimationBlockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA88179A18787B9300879946 /* AnimationBlockTests.m */; };
+		F4847482205A5178002FB886 /* PlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4847481205A5178002FB886 /* PlayerViewController.m */; };
+		F4847484205A53D0002FB886 /* YY.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = F4847483205A53D0002FB886 /* YY.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,9 @@
 		CA88179618787B9300879946 /* AnimationBlockTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AnimationBlockTests-Info.plist"; sourceTree = "<group>"; };
 		CA88179818787B9300879946 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CA88179A18787B9300879946 /* AnimationBlockTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationBlockTests.m; sourceTree = "<group>"; };
+		F4847480205A5178002FB886 /* PlayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlayerViewController.h; sourceTree = "<group>"; };
+		F4847481205A5178002FB886 /* PlayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayerViewController.m; sourceTree = "<group>"; };
+		F4847483205A53D0002FB886 /* YY.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = YY.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +117,7 @@
 		CA88177518787B9300879946 /* AnimationBlock */ = {
 			isa = PBXGroup;
 			children = (
+				F4847483205A53D0002FB886 /* YY.mp4 */,
 				CA88177E18787B9300879946 /* AppDelegate.h */,
 				CA88177F18787B9300879946 /* AppDelegate.m */,
 				CA88178118787B9300879946 /* Main.storyboard */,
@@ -119,6 +125,8 @@
 				CA88178518787B9300879946 /* ViewController.m */,
 				CA88178718787B9300879946 /* Images.xcassets */,
 				CA88177618787B9300879946 /* Supporting Files */,
+				F4847480205A5178002FB886 /* PlayerViewController.h */,
+				F4847481205A5178002FB886 /* PlayerViewController.m */,
 			);
 			path = AnimationBlock;
 			sourceTree = "<group>";
@@ -199,6 +207,9 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = tonyguan;
 				TargetAttributes = {
+					CA88176B18787B9300879946 = {
+						DevelopmentTeam = USNB3DS9S4;
+					};
 					CA88178C18787B9300879946 = {
 						TestTargetID = CA88176B18787B9300879946;
 					};
@@ -231,6 +242,7 @@
 				CA88178818787B9300879946 /* Images.xcassets in Resources */,
 				CA88177A18787B9300879946 /* InfoPlist.strings in Resources */,
 				CA88178318787B9300879946 /* Main.storyboard in Resources */,
+				F4847484205A53D0002FB886 /* YY.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA88178618787B9300879946 /* ViewController.m in Sources */,
+				F4847482205A5178002FB886 /* PlayerViewController.m in Sources */,
 				CA88178018787B9300879946 /* AppDelegate.m in Sources */,
 				CA88177C18787B9300879946 /* main.m in Sources */,
 			);
@@ -378,6 +391,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = USNB3DS9S4;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AnimationBlock/AnimationBlock-Prefix.pch";
 				INFOPLIST_FILE = "AnimationBlock/AnimationBlock-Info.plist";
@@ -391,6 +405,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = USNB3DS9S4;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AnimationBlock/AnimationBlock-Prefix.pch";
 				INFOPLIST_FILE = "AnimationBlock/AnimationBlock-Info.plist";
@@ -460,6 +475,7 @@
 				CA8817A018787B9300879946 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CA8817A118787B9300879946 /* Build configuration list for PBXNativeTarget "AnimationBlockTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +484,7 @@
 				CA8817A318787B9300879946 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
